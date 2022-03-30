@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+/* baze */
+html {
+	font-size: 16px;
+	
+}
+@media (max-width:1024px){
+	html {
+	font-size: 15px;
+	}
+}
+@media (max-width:768px){
+	html {
+		font-size: 14px;
+	}
+}
+@media (max-width:600px){
+	html {font-size: 13px;
+	}
+}
+body {
+	margin: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;/*trebuie sa  existe pe TOATE elemente care au padding*/
+}
+a, a:hover, a:active, a:visited {
+	text-decoration: none; /*scoate subliniatul*/
+}
+ol, ul { /* virgula spune ca ne referim la ambele elemente */
+	list-style: none;
+ }
+h1, h2, h3, h4, h5, h6, p {
+ 	margin: 0;
+ }
+header, aside, footer, main, nav, article, section {
+	display: block;
+}
+img {
+	display: block;
+	max-width: 100%;
+}
+.row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.row::before {
+	content: "";
+	display: table;
+
+}
+/*.clearfix {
+	clear: both;
+}*/
+/* baze */
+
+/*div {
+	background-color: black;
+	width: 25vh;
+	height: 25vw;
+}*/
+
+.login {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #86e6be96;
+	padding: 10%;
+	border-radius: 2%;
+	
+}
+
+.login input {
+	display: block;
+	padding: 0.5rem 0.9rem;
+	border-radius: 0.35rem;
+	border: 1px solid #b0b0b0;
+	margin-top: 0.6rem;
+	width: 100%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+
+}
+.login h1 {
+	text-align: center;
+}
+.login input[type=submit] {
+	background-color: #08a045;
+	color: #ffffff;
+	border: none;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.login a {
+	font-size: 1.2rem;
+
+}
+
+body {
+	background-image: url(https://hddesktopwallpapers.in/wp-content/uploads/2015/09/leaf-wallpaper-desktop.jpg);
+}
