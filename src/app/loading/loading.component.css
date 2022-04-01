@@ -68,19 +68,19 @@ img {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #86e6be96;
+	background-color: #63db8196;
 	padding: 10%;
 	border-radius: 2%;
 	
 }
 
-.login input {
+.input {
 	display: block;
 	padding: 0.5rem 0.9rem;
 	border-radius: 0.35rem;
 	border: 1px solid #b0b0b0;
 	margin-top: 0.6rem;
-	width: 100%;
+	
 	margin-top: 3px;
 	margin-bottom: 3px;
 
